@@ -1,0 +1,12 @@
+{
+  "case_id": "D4",
+  "session_id": "48b01a36-b1f4-4b22-abc4-cf018b223105",
+  "provider_order": "fake",
+  "elapsed_ms": 54,
+  "statuses": {
+    "upload": 201,
+    "summary": 200,
+    "timeline": 200,
+    "notice": 200
+  }
+}

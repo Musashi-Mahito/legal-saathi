@@ -1,0 +1,20 @@
+TAX INVOICE AND WARRANTY CARD
+
+Seller: CoolHome Appliances Pvt Ltd, Shop 4, FC Road, Pune
+Buyer: Ms Neha Verma
+
+Invoice number: CH/2025/1842
+Invoice date: 5 March 2025
+
+Item: Refrigerator, 260 litres
+Amount paid: Rs. 32,000
+Payment mode: UPI
+
+WARRANTY
+The refrigerator carries a two year warranty from the date of purchase. The warranty covers the compressor and the cooling system.
+
+SERVICE RECORD
+Service visit on 12 June 2025: the technician noted that the cooling unit had failed.
+Service visit on 3 July 2025: the same fault was reported again and the unit was not repaired.
+
+The seller has declined to replace the refrigerator and has offered only a repair.

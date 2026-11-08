@@ -1,0 +1,54 @@
+{
+  "dropped_unverified": 0,
+  "flags": [
+    "unknown_kb_tag"
+  ],
+  "summary": {
+    "arbitration_clause": {
+      "found": true,
+      "kb_ids": [
+        "arb_clause_basics"
+      ],
+      "plain_explanation": "A private arbitrator chosen by the landlord would decide disputes instead of a court.",
+      "quote": "Any dispute arising out of this agreement shall be referred to a sole arbitrator appointed by the Landlord."
+    },
+    "doc_type": "rental_agreement",
+    "key_amounts": [
+      {
+        "amount_inr": 60000,
+        "label": "security deposit",
+        "quote": "The tenant has paid a security deposit of Rs. 60,000 to the landlord."
+      }
+    ],
+    "key_clauses": [
+      {
+        "quote": "The landlord may deduct the cost of painting, not exceeding Rs. 5,000",
+        "summary": "Painting charges are capped at Rs. 5,000.",
+        "topic": "deductions"
+      }
+    ],
+    "key_dates": [
+      {
+        "date_iso": "2025-01-01",
+        "date_raw": "1 January 2025",
+        "label": "agreement start",
+        "quote": "commencing from 1 January 2025"
+      }
+    ],
+    "parties": [
+      {
+        "name": "Rakesh Sharma",
+        "role": "landlord"
+      },
+      {
+        "name": "Neha Verma",
+        "role": "tenant"
+      }
+    ],
+    "plain_summary": "Eleven-month rent agreement at Rs. 20,000 per month with a Rs. 60,000 deposit. Painting deductions are capped at Rs. 5,000 and disputes go to an arbitrator chosen by the landlord.",
+    "red_flags": [
+      "The landlord alone appoints the arbitrator."
+    ]
+  },
+  "status": 200
+}

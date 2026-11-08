@@ -1,0 +1,12 @@
+{
+  "case_id": "E3",
+  "session_id": "4894f379-e766-49f7-87dc-2f2f771570c3",
+  "provider_order": "fake",
+  "elapsed_ms": 52,
+  "statuses": {
+    "upload": 201,
+    "summary": 200,
+    "timeline": 200,
+    "notice": 200
+  }
+}

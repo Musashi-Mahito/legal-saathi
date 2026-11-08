@@ -1,0 +1,12 @@
+{
+  "case_id": "R1",
+  "session_id": "464f4d25-ede6-4ee3-9d47-08e3bdc8cfdf",
+  "provider_order": "fake",
+  "elapsed_ms": 35,
+  "statuses": {
+    "upload": null,
+    "summary": null,
+    "timeline": 200,
+    "notice": 200
+  }
+}

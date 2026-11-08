@@ -1,0 +1,28 @@
+{
+  "dropped_unverified": 4,
+  "events": [
+    {
+      "confidence": "high",
+      "date_iso": "2025-01-01",
+      "date_raw": "1 January 2025",
+      "doc_id": "d9bf56fa-80a1-460b-8644-72d83e15a491",
+      "event": "Rental agreement signed",
+      "grounded": true,
+      "quote": "This rental agreement is made on 1 January 2025",
+      "source": "document"
+    },
+    {
+      "confidence": "high",
+      "date_iso": "2025-11-30",
+      "date_raw": "30 November 2025",
+      "doc_id": "d9bf56fa-80a1-460b-8644-72d83e15a491",
+      "event": "Tenancy ended",
+      "grounded": true,
+      "quote": "ending on 30 November 2025",
+      "source": "document"
+    }
+  ],
+  "flags": [],
+  "undated": [],
+  "status": 200
+}

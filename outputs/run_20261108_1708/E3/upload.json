@@ -1,0 +1,12 @@
+{
+  "chars": 602,
+  "doc_id": "02025330-2bb3-4741-b825-a8ac9293edce",
+  "filename": "prompt_injection_document.txt",
+  "flags": [
+    "possible_prompt_injection"
+  ],
+  "pages": null,
+  "truncated": false,
+  "warnings": [],
+  "status": 201
+}

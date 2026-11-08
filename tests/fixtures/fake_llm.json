@@ -1,0 +1,112 @@
+{
+  "chat": {
+    "reply": "I'm sorry your landlord is holding back your deposit. A written demand sent by a method that gives proof is a sensible first step, and a deposit dispute with a landlord usually goes to a civil court or your state's rent authority, not the consumer commission (please confirm this with a lawyer or the official source) [KB:deposit_forum_civil]. Keep your agreement, rent receipts and chats safe. Did you sign a written agreement?",
+    "domain": "deposit",
+    "language": "en",
+    "case_updates": {
+      "facts": {
+        "common": {
+          "other_party_name": "Mr Rao",
+          "amount_inr": 60000,
+          "state_or_city": "Pune",
+          "cause_of_action_date": "2025-11-30"
+        },
+        "deposit": {
+          "deposit_paid_inr": 60000,
+          "monthly_rent_inr": 20000,
+          "move_out_date": "2025-11-30",
+          "written_agreement": true,
+          "unknown_key_that_must_be_ignored": "value"
+        },
+        "refund": {}
+      },
+      "evidence": [
+        {
+          "type": "whatsapp_chat",
+          "description": "Chats where the landlord promised to refund the deposit",
+          "have": "yes"
+        }
+      ]
+    },
+    "missing_info": ["landlord's reason for keeping the deposit", "written agreement"],
+    "kb_used": ["deposit_forum_civil"],
+    "needs_lawyer": false,
+    "needs_lawyer_reason": null
+  },
+  "summary": {
+    "doc_type": "rental_agreement",
+    "parties": [
+      {"name": "Rakesh Sharma", "role": "landlord"},
+      {"name": "Neha Verma", "role": "tenant"}
+    ],
+    "key_amounts": [
+      {
+        "label": "security deposit",
+        "amount_inr": 60000,
+        "quote": "The tenant has paid a security deposit of Rs. 60,000 to the landlord."
+      }
+    ],
+    "key_dates": [
+      {
+        "label": "agreement start",
+        "date_raw": "1 January 2025",
+        "date_iso": null,
+        "quote": "commencing from 1 January 2025"
+      }
+    ],
+    "key_clauses": [
+      {
+        "topic": "deductions",
+        "summary": "Painting charges are capped at Rs. 5,000.",
+        "quote": "The landlord may deduct the cost of painting, not exceeding Rs. 5,000"
+      }
+    ],
+    "arbitration_clause": {
+      "found": true,
+      "quote": "Any dispute arising out of this agreement shall be referred to a sole arbitrator appointed by the Landlord.",
+      "plain_explanation": "A private arbitrator chosen by the landlord would decide disputes instead of a court.",
+      "kb_ids": ["arb_clause_basics", "kb_id_that_does_not_exist"]
+    },
+    "red_flags": ["The landlord alone appoints the arbitrator."],
+    "plain_summary": "Eleven-month rent agreement at Rs. 20,000 per month with a Rs. 60,000 deposit. Painting deductions are capped at Rs. 5,000 and disputes go to an arbitrator chosen by the landlord."
+  },
+  "timeline": {
+    "events": [
+      {
+        "date_raw": "1 January 2025",
+        "event": "Rental agreement signed",
+        "quote": "This rental agreement is made on 1 January 2025",
+        "confidence": "high"
+      },
+      {
+        "date_raw": "30 November 2025",
+        "event": "Tenancy ended",
+        "quote": "ending on 30 November 2025",
+        "confidence": "high"
+      },
+      {
+        "date_raw": "last month",
+        "event": "Landlord has not refunded the deposit",
+        "quote": "I have asked him many times",
+        "confidence": "low"
+      }
+    ]
+  },
+  "notice": {
+    "notice_markdown": "DRAFT - for your review. Not legal advice. Please have a lawyer check it if the amount is large or the matter is urgent.\n\nTo: [OTHER PARTY ADDRESS]\nFrom: [YOUR ADDRESS]\n\nSubject: Refund of security deposit\n\n1. I paid a security deposit of Rs. 60,000 for the flat.\n2. I vacated the flat on 30 November 2025.\n3. I have asked for the deposit back several times.\n\nI request you to refund Rs. 60,000 within 15 days [CONFIRM TIME PERIOD]. If this is not resolved, I may approach the appropriate forum [KB:legal_notice_optional].\n\nDate: [DATE]\nSignature: [YOUR SIGNATURE]\nEnclosures: rental agreement, rent receipts",
+    "kb_used": ["legal_notice_optional"]
+  },
+  "summary_merge": {
+    "plain_summary": "A rent agreement with a security deposit, a capped painting deduction and an arbitration clause."
+  },
+  "default": {
+    "reply": "I can help with tenant deposit or consumer refund problems. Could you tell me a little more about what happened?",
+    "domain": "unknown",
+    "language": "en",
+    "case_updates": {"facts": {"common": {}, "deposit": {}, "refund": {}}, "evidence": []},
+    "missing_info": ["what happened"],
+    "kb_used": [],
+    "needs_lawyer": false,
+    "needs_lawyer_reason": null
+  }
+}

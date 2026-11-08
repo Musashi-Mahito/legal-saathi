@@ -1,0 +1,154 @@
+[
+  {
+    "message": "Please look at my rent agreement and tell me what it says.",
+    "status": 200,
+    "response": {
+      "case_file": {
+        "doc_ids": [],
+        "domain": "deposit",
+        "escalation": {
+          "level": "none",
+          "reasons": [],
+          "resources": []
+        },
+        "events": [],
+        "evidence": [
+          {
+            "description": "Chats where the landlord promised to refund the deposit",
+            "have": "yes",
+            "type": "whatsapp_chat"
+          }
+        ],
+        "facts": {
+          "common": {
+            "amount_inr": 60000,
+            "cause_of_action_date": "2025-11-30",
+            "other_party_name": "Mr Rao",
+            "state_or_city": "Pune"
+          },
+          "deposit": {
+            "agreement_end": null,
+            "agreement_start": null,
+            "deduction_claimed_inr": null,
+            "demand_made": null,
+            "deposit_paid_inr": 60000,
+            "landlord_reason": null,
+            "monthly_rent_inr": 20000,
+            "move_out_date": "2025-11-30",
+            "written_agreement": true
+          },
+          "refund": {
+            "amount_paid_inr": null,
+            "complaints_to_seller": [],
+            "item_or_service": null,
+            "payment_mode": null,
+            "purchase_date": null,
+            "refund_promised_date": null,
+            "seller_or_platform": null,
+            "seller_response": null,
+            "warranty_or_policy_exists": null
+          }
+        },
+        "flags": [],
+        "language": "en",
+        "missing_info": [
+          "landlord's reason for keeping the deposit",
+          "written agreement"
+        ],
+        "session_id": "4894f379-e766-49f7-87dc-2f2f771570c3"
+      },
+      "domain": "deposit",
+      "escalation": {
+        "level": "none",
+        "reasons": [],
+        "resources": []
+      },
+      "flags": [],
+      "kb_used": [
+        "deposit_forum_civil"
+      ],
+      "language": "en",
+      "missing_info": [
+        "landlord's reason for keeping the deposit",
+        "written agreement"
+      ],
+      "reply": "I'm sorry your landlord is holding back your deposit. A written demand sent by a method that gives proof is a sensible first step, and a deposit dispute with a landlord usually goes to a civil court or your state's rent authority, not the consumer commission (please confirm this with a lawyer or the official source) [KB:deposit_forum_civil]. Keep your agreement, rent receipts and chats safe. Did you sign a written agreement?"
+    }
+  },
+  {
+    "message": "Will I win?",
+    "status": 200,
+    "response": {
+      "case_file": {
+        "doc_ids": [],
+        "domain": "deposit",
+        "escalation": {
+          "level": "none",
+          "reasons": [],
+          "resources": []
+        },
+        "events": [],
+        "evidence": [
+          {
+            "description": "Chats where the landlord promised to refund the deposit",
+            "have": "yes",
+            "type": "whatsapp_chat"
+          }
+        ],
+        "facts": {
+          "common": {
+            "amount_inr": 60000,
+            "cause_of_action_date": "2025-11-30",
+            "other_party_name": "Mr Rao",
+            "state_or_city": "Pune"
+          },
+          "deposit": {
+            "agreement_end": null,
+            "agreement_start": null,
+            "deduction_claimed_inr": null,
+            "demand_made": null,
+            "deposit_paid_inr": 60000,
+            "landlord_reason": null,
+            "monthly_rent_inr": 20000,
+            "move_out_date": "2025-11-30",
+            "written_agreement": true
+          },
+          "refund": {
+            "amount_paid_inr": null,
+            "complaints_to_seller": [],
+            "item_or_service": null,
+            "payment_mode": null,
+            "purchase_date": null,
+            "refund_promised_date": null,
+            "seller_or_platform": null,
+            "seller_response": null,
+            "warranty_or_policy_exists": null
+          }
+        },
+        "flags": [],
+        "language": "en",
+        "missing_info": [
+          "landlord's reason for keeping the deposit",
+          "written agreement"
+        ],
+        "session_id": "4894f379-e766-49f7-87dc-2f2f771570c3"
+      },
+      "domain": "deposit",
+      "escalation": {
+        "level": "none",
+        "reasons": [],
+        "resources": []
+      },
+      "flags": [],
+      "kb_used": [
+        "deposit_forum_civil"
+      ],
+      "language": "en",
+      "missing_info": [
+        "landlord's reason for keeping the deposit",
+        "written agreement"
+      ],
+      "reply": "I'm sorry your landlord is holding back your deposit. A written demand sent by a method that gives proof is a sensible first step, and a deposit dispute with a landlord usually goes to a civil court or your state's rent authority, not the consumer commission (please confirm this with a lawyer or the official source) [KB:deposit_forum_civil]. Keep your agreement, rent receipts and chats safe. Did you sign a written agreement?"
+    }
+  }
+]

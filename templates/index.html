@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Legal Saathi helps you understand tenant deposit and consumer refund problems in India." />
+    <title>Legal Saathi</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <h1>Legal Saathi</h1>
+        <p class="tagline">Plain-language help with tenant deposit and consumer refund problems.</p>
+      </div>
+      <p class="language-hint">Write in English, Hindi or Hinglish</p>
+    </header>
+
+    <div id="banner" class="banner" role="status" aria-live="polite" hidden>
+      <p class="banner-title" id="banner-title"></p>
+      <ul id="banner-reasons" class="banner-list"></ul>
+      <ul id="banner-resources" class="banner-list resources"></ul>
+    </div>
+
+    <div id="error-box" class="alert" role="alert" hidden>
+      <span id="error-text"></span>
+      <button id="error-close" type="button" aria-label="Dismiss error">Dismiss</button>
+    </div>
+
+    <main class="layout">
+      <section class="panel chat-panel" aria-labelledby="chat-heading">
+        <h2 id="chat-heading" class="section-title">Chat</h2>
+        <div id="messages" class="messages" aria-live="polite" aria-relevant="additions"></div>
+        <div id="suggestions" class="suggestions" aria-label="Example messages"></div>
+        <p id="typing" class="typing" hidden>Legal Saathi is typing…</p>
+        <form id="chat-form" class="composer" autocomplete="off">
+          <label class="visually-hidden" for="chat-input">Your message</label>
+          <textarea
+            id="chat-input"
+            name="message"
+            rows="2"
+            maxlength="2000"
+            placeholder="Describe what happened…"
+            required
+          ></textarea>
+          <button id="send-button" type="submit" class="primary">Send</button>
+        </form>
+        <p class="hint">Enter sends, Shift+Enter adds a new line.</p>
+      </section>
+
+      <section class="panel workspace" aria-label="Case workspace">
+        <div class="tablist" role="tablist" aria-label="Case workspace tabs">
+          <button
+            class="tab"
+            role="tab"
+            id="tab-documents"
+            aria-selected="true"
+            aria-controls="panel-documents"
+            data-panel="documents"
+            type="button"
+          >
+            Documents
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-summary"
+            aria-selected="false"
+            aria-controls="panel-summary"
+            data-panel="summary"
+            type="button"
+          >
+            Summary
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-timeline"
+            aria-selected="false"
+            aria-controls="panel-timeline"
+            data-panel="timeline"
+            type="button"
+          >
+            Timeline
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-notice"
+            aria-selected="false"
+            aria-controls="panel-notice"
+            data-panel="notice"
+            type="button"
+          >
+            Notice
+          </button>
+          <button
+            class="tab"
+            role="tab"
+            id="tab-case"
+            aria-selected="false"
+            aria-controls="panel-case"
+            data-panel="case"
+            type="button"
+          >
+            Case file
+          </button>
+        </div>
+
+        <div class="panel-body" id="panel-documents" role="tabpanel" aria-labelledby="tab-documents">
+          <p class="warning">
+            Demo only: please upload sample or redacted documents, not real personal papers.
+          </p>
+          <form id="upload-form" class="upload-form">
+            <label for="file-input">Upload a PDF, DOCX or TXT file</label>
+            <input id="file-input" type="file" accept=".pdf,.docx,.txt" />
+            <button id="upload-button" type="submit" class="primary">Upload</button>
+          </form>
+          <ul id="document-list" class="document-list"></ul>
+          <p id="documents-empty" class="empty">No documents yet.</p>
+        </div>
+
+        <div class="panel-body" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" hidden>
+          <div class="toolbar">
+            <label for="summary-doc">Document</label>
+            <select id="summary-doc"></select>
+            <button id="summarize-button" type="button" class="primary">Summarize</button>
+          </div>
+          <div id="summary-output" class="output"></div>
+        </div>
+
+        <div class="panel-body" id="panel-timeline" role="tabpanel" aria-labelledby="tab-timeline" hidden>
+          <div class="toolbar">
+            <button id="timeline-button" type="button" class="primary">Build timeline</button>
+          </div>
+          <div id="timeline-output" class="output"></div>
+        </div>
+
+        <div class="panel-body" id="panel-notice" role="tabpanel" aria-labelledby="tab-notice" hidden>
+          <div class="toolbar">
+            <button id="notice-button" type="button" class="primary">Draft notice</button>
+            <span id="notice-hint" class="hint"></span>
+          </div>
+          <div id="notice-output" class="output"></div>
+        </div>
+
+        <div class="panel-body" id="panel-case" role="tabpanel" aria-labelledby="tab-case" hidden>
+          <div id="case-output" class="output"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>
+        Legal Saathi gives information, not legal advice. For urgent or high-value matters,
+        consult a lawyer or your District Legal Services Authority.
+      </p>
+    </footer>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

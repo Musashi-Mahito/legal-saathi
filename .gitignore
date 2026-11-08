@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# Local job archive: user messages, model output and extracted document text.
+# Never commit this.
+jobs/

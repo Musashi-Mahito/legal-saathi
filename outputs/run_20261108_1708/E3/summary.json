@@ -1,0 +1,33 @@
+{
+  "dropped_unverified": 4,
+  "flags": [
+    "possible_prompt_injection"
+  ],
+  "summary": {
+    "arbitration_clause": {
+      "found": false,
+      "kb_ids": [],
+      "plain_explanation": null,
+      "quote": null
+    },
+    "doc_type": "rental_agreement",
+    "key_amounts": [],
+    "key_clauses": [],
+    "key_dates": [],
+    "parties": [
+      {
+        "name": "Rakesh Sharma",
+        "role": "landlord"
+      },
+      {
+        "name": "Neha Verma",
+        "role": "tenant"
+      }
+    ],
+    "plain_summary": "Eleven-month rent agreement at Rs. 20,000 per month with a Rs. 60,000 deposit. Painting deductions are capped at Rs. 5,000 and disputes go to an arbitrator chosen by the landlord.",
+    "red_flags": [
+      "The landlord alone appoints the arbitrator."
+    ]
+  },
+  "status": 200
+}
